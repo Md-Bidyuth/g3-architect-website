@@ -4,7 +4,13 @@
 
 /* shared style */
 .btn-primary{
-    
+    border-radius: 8px;
+    background: #FF900E;
+    border:none;
+    padding:15px 25px;
+    color:white;
+    font-size: 1.1rem;
+    cursor: pointer;
 }
 *{
   font-family: 'Open Sans', sans-serif;
@@ -59,5 +65,32 @@ nav li a{
     color:#727272;
 }
 .banner img{
-    width:calc(100vw - 200px);
+    /* width:calc(100vw - 200px); */
+    width:100%;
+    margin-top: 20px;
+}
+
+
+/* media query */
+/* for mobile device */
+@media screen and (max-width:576px) {
+    header{
+  
+        padding:50px 20px;
+    }
+    nav{
+        flex-direction: column;
+    }
+   
+}
+
+/* for tablet or medium devices */
+@media screen and (min-width:577px) and (max-width:992px) {
+
+    header{
+       padding:50px 50px;
+    }
+         nav{
+            flex-direction: column;
+         } 
 }
