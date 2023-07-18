@@ -136,6 +136,20 @@ main{
 .card p{
     font-size: 0.8rem;
 }
+.sponsor-texts{
+    text-align: center;
+    width: 500px;
+    margin:auto;
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+.sponsor-imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+.sponsor-imgs img{
+    width: 100px;
+}
 
 /* media query */
 /* for mobile device */
