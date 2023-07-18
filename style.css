@@ -150,6 +150,15 @@ main{
 .sponsor-imgs img{
     width: 100px;
 }
+/* footer style */
+footer{
+  
+    background: rgba(255,144,14,0.10);
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 30px 0px;
+}
 
 /* media query */
 /* for mobile device */
