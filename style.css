@@ -190,6 +190,20 @@ main{
       gap: 20px;
       align-items: center;
     }
+    .sponsor-texts{
+        width: 300px;
+        
+    }
+    .sponsor-imgs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .sponsor-imgs img{
+        height:30px;
+        width: 130px;
+        margin-bottom: 30px;
+    }
+
 }
 
 /* for tablet or medium devices */
@@ -225,5 +239,9 @@ main{
          }
          .facts-description{
             width: 400px;
+        }
+        .sponsor-imgs img{
+            height:24px;
+            width: 70px;
         }
 }
